@@ -236,6 +236,7 @@ app.delete("/books/:id", async (req, res) => {
 });
 
 // Start server after connecting database
+// Start server after connecting database
 async function startServer() {
   try {
     await connectDB();
